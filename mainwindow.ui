@@ -17,14 +17,27 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>210</y>
+      <x>70</x>
+      <y>50</y>
       <width>86</width>
       <height>26</height>
      </rect>
     </property>
     <property name="text">
      <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>100</y>
+      <width>411</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>You have pressed this button 0 times</string>
     </property>
    </widget>
   </widget>
