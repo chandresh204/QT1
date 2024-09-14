@@ -1,9 +1,0 @@
-/home/chad/Qt/Qt1/build/Desktop-Debug/CMakeFiles/Qt1.dir
-/home/chad/Qt/Qt1/build/Desktop-Debug/CMakeFiles/edit_cache.dir
-/home/chad/Qt/Qt1/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
-/home/chad/Qt/Qt1/build/Desktop-Debug/CMakeFiles/list_install_components.dir
-/home/chad/Qt/Qt1/build/Desktop-Debug/CMakeFiles/install.dir
-/home/chad/Qt/Qt1/build/Desktop-Debug/CMakeFiles/install/local.dir
-/home/chad/Qt/Qt1/build/Desktop-Debug/CMakeFiles/install/strip.dir
-/home/chad/Qt/Qt1/build/Desktop-Debug/CMakeFiles/Qt1_autogen_timestamp_deps.dir
-/home/chad/Qt/Qt1/build/Desktop-Debug/CMakeFiles/Qt1_autogen.dir
