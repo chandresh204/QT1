@@ -12,6 +12,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
+# Include libqrencode
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(QRENCODE REQUIRED libqrencode)
+
+
 set(PROJECT_SOURCES
         main.cpp
         mainwindow.cpp
@@ -43,6 +48,8 @@ else()
 endif()
 
 target_link_libraries(Qt1 PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+# Link Qt and libqrencode libraries  b
+target_include_directories(${PROJECT_NAME} PRIVATE ${QRENCODE_INCLUDE_DIRS})
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
